@@ -120,6 +120,33 @@
     align-items: center;
 }
 
+/* 移动端页眉样式 */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .site-name {
+        font-size: 20px;
+        display: block;
+        width: 100%;
+    }
+    
+    .fangwenliang {
+        width: 100%;
+        text-align: left;
+        margin: 5px 0;
+    }
+    
+    .contact-phone {
+        width: 100%;
+        justify-content: flex-start;
+        margin: 5px 0;
+    }
+}
+
 .site-name {
     color: #333333;
     font-size: 24px;

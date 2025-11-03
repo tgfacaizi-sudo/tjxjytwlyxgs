@@ -13,13 +13,13 @@
     <div class="header-content">
         <!-- 左侧网站名称 -->
         <a href="index.html" class="site-name">天津鑫吉运通物流有限公司</a>
-		<div>
-		本站总访问量 <span id="busuanzi_site_pv">加载中...</span> 次
+		<div class="fangwenliang">
+		访问量 <span id="busuanzi_site_pv">加载中...</span> 
         </div>
         <!-- 右侧联系电话 -->
         <div class="contact-phone">
             <span class="phone-icon">📞</span>
-            <span>13333333333</span>
+            <a href="tel:13333333333">13333333333</a>
         </div>
     </div>
 </header>
@@ -43,7 +43,7 @@
         <div class="contact-overlay">
             <h3>联系我们</h3>
             <div class="contact-info">联系人：张先生</div>
-            <div class="contact-info">联系电话：138-8888-8888</div>
+            <div class="contact-info"><a href="tel:13333333333">13333333333</a></div>
             <div class="wechat-qrcode">
                 <img src="images/wechat_qrcode.png" alt="微信二维码">
             </div>
@@ -120,6 +120,7 @@
     <!-- 页脚区域 -->
 <footer class="footer">
     <div class="footer-container">
+        <!-- 上部分：友情链接（通过JS动态加载） -->
         <div class="footer-friendship-links">
             <div class="friendship-links-title">友情链接</div>
             <div class="friendship-links-list" id="friendship-links">
@@ -141,6 +142,7 @@
                     <div class="footer-info-content">
                         <p>地址： 天津市东丽区金钟街道欢坨村杨北公路西876号津亚伟业物流有限公司B1-122号</p>
                         <p>电话：138-8888-8888</p>
+                        <p>邮箱：contact@example.com</p>
                     </div>
                 </div>
                 <div class="footer-info-item">
@@ -155,6 +157,11 @@
         <!-- 下部分：版权和备案信息 -->
         <div class="footer-bottom">
             <div class="footer-copyright">© 2025 天津鑫吉运通物流有限公司 版权所有</div>
+            <div class="footer-record">
+                <span>ICP备案号：京ICP备12345678号</span>
+                <span style="margin: 0 10px;">|</span>
+                <span>增值电信业务经营许可证：营业执照：XXXXXXXXXXXXXXXXXX</span>
+            </div>
         </div>
     </div>
 </footer>
